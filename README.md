@@ -1,11 +1,6 @@
 # canvas
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
-
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
-
-TODO: Delete this and the text above, and describe your gem
-
+A Jekyll theme for use with [Canvas]() courses where the majority of the content is hosted in GitHub. The content on GitHub is published as a project GitHub Pages site.
 
 ## Installation
 
@@ -18,7 +13,7 @@ gem "canvas"
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: canvas
+remote_theme: douglasurner/canvas
 ```
 
 And then execute:
@@ -31,11 +26,27 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+To apply the canvas theme to a page:
+
+**In the Canvas page (assignment or whatever) edit the HTML to be:**
+
+```html
+<iframe src="URL on GitHub Pages of the document you want to display" width="100%" height="666px"></iframe>
+```
+
+**In the GitHub repository for the content:**
+
+* Add (or if you already have one, edit) `_config.yaml` and add:
+
+```yaml
+remote_theme: douglasurner/canvas
+```
+
+* Go to Settings and ensure that the GitHub Pages feature is enabled.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/DouglasUrner/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
