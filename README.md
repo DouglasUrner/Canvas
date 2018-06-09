@@ -5,9 +5,13 @@ A Jekyll theme for use with [Canvas](https://canvas.instructure.com) courses whe
 ## TODOs and Issues
 
 - [X] CSS includes
+- [X] Float footer to the bottom of the page.
+- [ ] Set margins (layout.scss)
 - [ ] Match Canvas typography
 - [ ] Site variables (fonts, colors)
 - [ ] Tabbed assignment pages
+- [ ] Use details / summary
+- [ ] Automatially add {:target="_blank"} to get links to open in new tab.
 - [ ] Documentation
 
 ## Installation
