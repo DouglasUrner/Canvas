@@ -5,3 +5,5 @@
 html, body {
   font-family: "LatoWeb", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+@import "typography";
