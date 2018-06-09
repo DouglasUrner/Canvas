@@ -1,5 +1,12 @@
 /* typography.scss */
 
 html, body {
-  font-family: "LatoWeb", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: LatoWeb, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  color: rgb(45, 59, 69);
+  font-size: 16px;
+  line-height: 24px;
+  margin: 12px 0px 12px 0px;
 }
