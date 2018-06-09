@@ -4,7 +4,8 @@ A Jekyll theme for use with [Canvas](https://canvas.instructure.com) courses whe
 
 ## TODOs and Issues
 
-- [ ] CSS includes
+- [X] CSS includes
+- [ ] Match Canvas typography
 - [ ] Site variables (fonts, colors)
 - [ ] Tabbed assignment pages
 - [ ] Documentation
