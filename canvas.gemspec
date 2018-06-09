@@ -6,9 +6,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Douglas Urner"]
   spec.email         = ["dlu@canishe.com"]
 
-  spec.summary       = "TODO: Write a short summary, because Rubygems requires one."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
-  spec.license       = "MIT"
+  spec.summary       = "Jekyll theme for Canvas LMS."
+  spec.homepage      = "https://github.com/douglasurner/canvas"
+  spec.license       = "BSD3"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
 
