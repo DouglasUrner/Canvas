@@ -1,3 +1,7 @@
+---
+# Canvas Jekyll theme - front matter ensures Jekyll will process the file.
+---
+
 html, body {
   font-family: "LatoWeb", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

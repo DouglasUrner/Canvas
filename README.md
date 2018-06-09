@@ -1,6 +1,13 @@
 # canvas
 
-A Jekyll theme for use with [Canvas]() courses where the majority of the content is hosted in GitHub. The content on GitHub is published as a project GitHub Pages site.
+A Jekyll theme for use with [Canvas](https://canvas.instructure.com) courses where the majority of the content is hosted in GitHub and published as a project GitHub Pages site.
+
+## TODOs and Issues
+
+- [ ] CSS includes
+- [ ] Site variables (fonts, colors)
+- [ ] Tabbed assignment pages
+- [ ] Documentation
 
 ## Installation
 
@@ -60,4 +67,3 @@ To add a custom directory to your theme-gem, please edit the regexp in `canvas.g
 ## License
 
 The theme is available as open source under the terms of the BSD License.
-
