@@ -1,0 +1,23 @@
+/* layout.scss */
+
+/*
+** Place the contents of the <footer> tag at the bottom of the page,
+** it the page is short, or at the bottom of the text if the page is
+** longer than a single screen.
+*/
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
