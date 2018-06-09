@@ -3,5 +3,11 @@ title: Jekyll Theme for Canvas
 markdown: kramdown
 
 # We specify the directory for Jekyll so we can use @imports.
+# sass:
+#   sass_dir: _scss
+
+# Sass/SCSS
+# http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 sass:
-  sass_dir: _scss
+  sass_dir: _sass
+  style: compressed
