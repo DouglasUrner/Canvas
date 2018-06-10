@@ -1,2 +1,17 @@
+# Markdown processor
+#
+# Use kramdown for processing of markdown in details tags and for handling of
+# link options.
+#
+markdown:     kramdown
+kramdown:
+  parse_block_html: true    # Enable parsing of Markdown in blocks.
+
+# Syntax highlighting
+#
+highlighter:  pygments
+
+# Location of the SCSS partials
+#
 sass:
-  sass_dir: _sass
+  sass_dir:   _sass
