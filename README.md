@@ -10,8 +10,8 @@ A Jekyll theme for use with [Canvas](https://canvas.instructure.com) LMS courses
 - [ ] Match Canvas typography
 - [ ] Site variables (fonts, colors)
 - [ ] Tabbed assignment pages
-- [ ] Use details / summary
-- [ ] Automatially add {:target="_blank"} to get links to open in new tab.
+- [X] Use details / summary
+- [ ] Automatially add {:target="_blank"} to get links to open in new tab. Is there a pattern to the ones that open as a blank iframe? Might be nice to only open those in a new tab.
 - [ ] Documentation
 
 ## Installation
