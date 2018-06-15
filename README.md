@@ -1,6 +1,6 @@
 # canvas
 
-A Jekyll theme for use with [Canvas](https://canvas.instructure.com) courses where the majority of the content is hosted in GitHub and published as a project GitHub Pages site.
+A Jekyll theme for use with [Canvas](https://canvas.instructure.com) LMS courses where the majority of the content is hosted in GitHub and published as a project GitHub Pages site.
 
 ## TODOs and Issues
 
