@@ -14,4 +14,21 @@
    .</p>
 </footer>
 
+<script>
+  var summaries = document.getElementsByTagName("SUMMARY");
+  var i;
+  for (i = 0; i < summaries.length; i++) {
+    var span = document.createElement("SPAN");
+    span.className = "floats-right";
+
+    var cb = document.createElement("INPUT");
+    cb.className = "done";
+    cb.type = "checkbox";
+    cb.id = cb.name = "step-" + i;
+
+    span.appendChild(cb);
+    summaries[i].appendChild(span);
+  }
+</script>
+
 {% include foot.html %}
