@@ -13,6 +13,7 @@ A Jekyll theme for use with [Canvas](https://canvas.instructure.com) LMS courses
 - [X] Use details / summary
 - [ ] Automatially add {:target="_blank"} to get links to open in new tab. Is there a pattern to the ones that open as a blank iframe? Might be nice to only open those in a new tab.
 - [ ] Documentation
+- [ ] Cascade options - set defaults in `_config.yml` override in site and page setup (e.g., site `_config.yml` and page frontmatter).
 
 ## Installation
 
