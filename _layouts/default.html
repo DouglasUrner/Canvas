@@ -14,6 +14,7 @@
    .</p>
 </footer>
 
+{% if site.checkbox_on_summaries == true %}
 <script>
   var summaries = document.getElementsByTagName("SUMMARY");
 
@@ -30,5 +31,6 @@
     summaries[i].appendChild(span);
   }
 </script>
+{% endif %}
 
 {% include foot.html %}
