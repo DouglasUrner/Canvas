@@ -1,6 +1,6 @@
 /* details.scss */
 
-details summary span.done {
+details summary span input.done {
   float: right;
 }
 
@@ -8,7 +8,7 @@ details summary span.done {
 
 details {
     summary {
-        &::before {
+        &::after {
             font-family: FontAwesome;
             font-size: 1.2em;
             content: "\f152";
@@ -21,7 +21,7 @@ details {
         margin-bottom: 0.8em;
     }
     &.open, &[open] {
-        summary::before {
+        summary::after {
             content: "\f150";
         }
     }
