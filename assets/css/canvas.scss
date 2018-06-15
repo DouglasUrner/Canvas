@@ -2,9 +2,7 @@
 # Canvas Jekyll theme - front matter ensures Jekyll will process the file.
 ---
 
-
-# Features
-@import "details";
 @import "layout";
 @import "typography";
 
+@import "details";
