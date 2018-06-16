@@ -19,9 +19,9 @@
    * Add a target attribute to all of the links in the document.
    */
   var context = "_top";
-  {% if page.link_target %}
+  {% if page.link_target != null %}
     context = {{ page.link_target }};
-  {% else if site.link_target %}
+  {% else if site.link_target != null %}
     context = {{ site.link_target }};
   {% endif %}
   var links = document.getElementsByTagName("A");
