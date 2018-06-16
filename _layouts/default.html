@@ -14,6 +14,13 @@
    .</p>
 </footer>
 
+<script>
+  var links = document.getElementsByTagName("A");
+  for (i = 0; i < links.length; i++) {
+    links[i].target = "_top";
+  }
+</script>
+
 {% if site.checkbox_on_summaries == true %}
 <script>
   var summaries = document.getElementsByTagName("SUMMARY");
