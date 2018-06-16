@@ -1,3 +1,6 @@
+---
+# Process with Jekyll.
+---
 /**
  * canvas.js
  */
