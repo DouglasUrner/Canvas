@@ -22,7 +22,7 @@
   {% if page.link_target != null %}
     context = {{ page.link_target }};
     context = "_self";
-  {% else if site.link_target != null %}
+  {% elsif site.link_target != null %}
     context = {{ site.link_target }};
     context = "_blank";
   {% endif %}
