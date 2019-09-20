@@ -7,7 +7,8 @@
 
 /**
  * Add a target attribute to all of the links in the document.
- */
+ *
+ * TODO: commented out to see if this code is overriding the base tag in the head.
 var context = "_top";
 {% if page.link_target != null %}
   context = {{ page.link_target }};
@@ -21,6 +22,7 @@ var links = document.getElementsByTagName("A");
 for (i = 0; i < links.length; i++) {
   links[i].target = context;
 }
+*/
 
 
 {% if site.checkbox_on_summaries == true %}
