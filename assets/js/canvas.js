@@ -24,7 +24,6 @@ for (i = 0; i < links.length; i++) {
 }
 */
 
-
 {% if site.checkbox_on_summaries == true %}
 
   var summaries = document.getElementsByTagName("SUMMARY");
