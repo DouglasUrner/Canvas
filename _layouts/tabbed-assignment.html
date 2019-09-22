@@ -1,30 +1,37 @@
-<div class="enhanceable_content tabs">
-  <ul>
-    <li><a style="text-decoration: none;" href="#instructions">Instructions</a></li>
-    <li><a style="text-decoration: none;" href="#submission">Submission</a></li>
-    <li><a style="text-decoration: none;" href="#resources">Resources</a></li>
-  </ul>
-  
-  <div id="instructions">
-  <h3>Instructions:</h3>
-  </div>
-  
-  <div id="submission">
-    <h3>Submission</h3>
-    <p>I would like to see how far you got, please submit a screen capture showing the full Unity Editor window.</p>
-    <div class="content-box pad-box-mini border border-round" style="background-color: #f2f2f2; border: thick solid #800;">
-      <ol>
-        <li>Select&nbsp;the Tall window Layout.</li>
-        <li>Maximize your Unity window.</li>
-        <li>In the Hierarchy tab select the Player object - if necessary minimize components in the Inspector to make the Rigidbody 2D and Script components fully visible.</li>
-        <li>Make a screen capture of the full Unity window.</li>
-        <li>Upload the screen capture as your submission for this assignment.</li>
-      </ol>
-    </div>
-  </div>
+{% include head.html %}
+
+<main>
+  <div class="enhanceable_content tabs">
+    <ul>
+      <li><a style="text-decoration: none;" href="#instructions">Instructions</a></li>
+      <li><a style="text-decoration: none;" href="#submission">Submission</a></li>
+      <li><a style="text-decoration: none;" href="#resources">Resources</a></li>
+    </ul>
     
-  <div id="resources">
-    <h3>Resources</h3>
-  </div>
+    <div id="instructions">
+      <h3>Instructions:</h3>
+    </div>
   
-</div>
+    <div id="submission">
+      <h3>Submission:</h3>
+    </div>
+    
+    <div id="resources">
+      <h3>Resouces:</h3>
+    </div>
+    
+    {{ content }}
+    
+  </div>
+</main>
+
+<footer>
+  <p align="right">This course in open source.
+    <a href="{{ site.github.repository_url }}">
+      Help improve this page.
+    </a>
+  </p>
+</footer>
+
+{% include foot.html %}
+  
