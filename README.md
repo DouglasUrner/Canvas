@@ -1,6 +1,6 @@
 # canvas
 
-A Jekyll theme for use with [Canvas](https://canvas.instructure.com) LMS courses where the majority of the content is hosted in GitHub and published as a project GitHub Pages site.
+A Jekyll theme for use with [Canvas](https://canvas.instructure.com) LMS courses where the majority of the course content is maintained on GitHub and published as a GitHub Pages site for the repository (or repositories) holding the content for the course.
 
 ## TODOs and Issues
 
@@ -55,7 +55,7 @@ To apply the canvas theme to a page:
 remote_theme: douglasurner/canvas
 ```
 
-* Go to Settings and ensure that the GitHub Pages feature is enabled.
+* Go to the repository Settings and ensure that the GitHub Pages feature is enabled.
 
 ## Contributing
 
