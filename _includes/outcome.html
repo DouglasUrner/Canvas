@@ -1,0 +1,18 @@
+  <!-- Begin: canvas/_includes/outcome.html -->
+  {% if page.outcome %}
+    <div id="outcome"
+      {% if page.outcome-font-color or page.outcome-bg-color %}
+         style="
+          {% if page.outcome-font-color %}color={{ page.outcome-font-color }};{% endif %}
+          {% if page.outcome-bg-color %}background-color={{ page.outcome-bg-color }};{% endif %}
+         "
+      {% endif %}
+    >
+      <p><strong>
+
+        Outcome: {{ page.outcome }}
+
+      </strong></p>
+    </div>
+  {% endif %}
+  <!-- End: canvas/_includes/outcome.html -->
