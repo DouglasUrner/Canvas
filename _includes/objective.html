@@ -1,9 +1,11 @@
   <!-- Begin: canvas/_includes/objective.html -->
-  <div style="color: #ffffff; background-color: #663399; padding: 0.75em; margin-bottom: 0.5em;">
-    <p><strong style="color: #ffffff;">
-        
-      {{ page.objective }}
-      
-      </strong></p>
-  </div>
+  {% if page.objective %}
+    <div style="color: #ffffff; background-color: #663399; padding: 0.75em; margin-bottom: 0.5em;">
+      <p><strong style="color: #ffffff;">
+
+        {{ page.objective }}
+
+        </strong></p>
+    </div>
+  {% endif %}
   <!-- End: canvas/_includes/objective.html -->
