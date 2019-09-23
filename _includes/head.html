@@ -1,22 +1,22 @@
-<!-- canvas/_includes/head.html -->
+  <!-- canvas/_includes/head.html -->
 
-<title>
-  {% if page.title == "Home" %}
-    {% if site.tagline %}
-      {{ site.title }} &middot; {{ site.tagline }}
+  <title>
+    {% if page.title == "Home" %}
+      {% if site.tagline %}
+        {{ site.title }} &middot; {{ site.tagline }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
     {% else %}
-      {{ site.title }}
+      {{ page.title }} &middot; {{ site.title }}
     {% endif %}
-  {% else %}
-    {{ page.title }} &middot; {{ site.title }}
-  {% endif %}
-</title>
+  </title>
 
-<base target="_blank">  
+  <base target="_blank">  
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet"
-  href="{{ '/assets/css/canvas.css?v=' | append: site.github.build_revision | relative_url }}"
-  media="screen" type="text/css">
+  <link rel="stylesheet"
+    href="{{ '/assets/css/canvas.css?v=' | append: site.github.build_revision | relative_url }}"
+    media="screen" type="text/css">
