@@ -1,5 +1,6 @@
-<nav>
+<!-- canvas/_includes/tabs.html -->
 
+<nav>
   {% for tab in site.data.tabs %}
     {% capture tab_url %}{{page.dir}}{{tab.link}}{% endcapture %}
     <a href="{{ tab.link }}"
@@ -7,5 +8,4 @@
       {{ tab.name }}
     </a>
   {% endfor %}
-
 </nav>
