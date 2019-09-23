@@ -3,7 +3,7 @@
 <nav>
   {% for tab in site.data.tabs %}
     {% capture tab_url %}{{page.dir}}{{tab.link}}{% endcapture %}
-    <a href="{{ tab.link }}"
+    <a href="{{ tab.link }}" target="_self"
       {% if page.url == tab_url %}class="selected"{% endif %} >
       {{ tab.name }}
     </a>
