@@ -1,28 +1,22 @@
-<!DOCTYPE html>
-<html>
-    <head>
+<!-- canvas/_includes/head.html -->
 
-      <title>
-        {% if page.title == "Home" %}
-          {% if site.tagline %}
-            {{ site.title }} &middot; {{ site.tagline }}
-          {% else %}
-            {{ site.title }}
-          {% endif %}
-        {% else %}
-          {{ page.title }} &middot; {{ site.title }}
-        {% endif %}
-      </title>
-        
-      <base target="_blank">  
+<title>
+  {% if page.title == "Home" %}
+    {% if site.tagline %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ site.title }}
+    {% endif %}
+  {% else %}
+    {{ page.title }} &middot; {{ site.title }}
+  {% endif %}
+</title>
 
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+<base target="_blank">  
 
-      <link rel="stylesheet"
-        href="{{ '/assets/css/canvas.css?v=' | append: site.github.build_revision | relative_url }}"
-        media="screen" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    </head>
-    <body>
-    <!-- body and html are closed in foot.html -->
+<link rel="stylesheet"
+  href="{{ '/assets/css/canvas.css?v=' | append: site.github.build_revision | relative_url }}"
+  media="screen" type="text/css">
