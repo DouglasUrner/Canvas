@@ -1,5 +1,10 @@
 <!-- canvas/_includes/tabs.html -->
 
+<!--
+ ! The set of tabs created is defined in the site (not theme) file _data/tags.yml.
+ ! If you tabs are not displaying, check that the file exists.
+ -->
+
 <nav>
   {% for tab in site.data.tabs %}
     {% capture tab_url %}{{page.dir}}{{tab.link}}{% endcapture %}
