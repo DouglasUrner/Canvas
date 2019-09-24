@@ -1,5 +1,9 @@
 /* layout.scss */
 
+html {
+  min-width: 600px;
+}
+
 /*
 ** Place the contents of the <footer> tag at the bottom of the page,
 ** it the page is short, or at the bottom of the text if the page is
