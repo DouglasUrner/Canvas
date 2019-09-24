@@ -3,7 +3,7 @@
   {% if page.outcome or site.data.assignment.outcome %}
     {% if page.outcome %}
       {% capture outcome %}{{page.outcome}}{% endcapture %}
-    {% elseif %}
+    {% else %}
       {% capture outcome %}{{site.data.assignment.outcome}}{% endcapture %}
     {% endif %}
     <div id="outcome"
