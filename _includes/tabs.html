@@ -8,7 +8,7 @@
 <nav>
   {% for tab in site.data.tabs %}
     {% capture tab_url %}{{page.dir}}{{tab.link}}{% endcapture %}
-    <!-- page.url: '{{ page.url }}' tab_url: '{{ tab_url }}' -->
+    <!-- Debug: page.url: '{{ page.url }}' tab_url: '{{ tab_url }}' -->
     <a href="{{ tab.link }}" target="_self"
       {% if ( page.url == tab_url ) or ( page.url == "/" and tab_url == "/index.html" ) %}
         class="selected"
