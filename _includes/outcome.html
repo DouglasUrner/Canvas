@@ -1,6 +1,11 @@
   <!-- Begin: canvas/_includes/outcome.html -->
   {{ site.data.assignment.outcome }}
   {% if page.outcome or site.data.assignment.outcome %}
+    {% if page.outcome %}
+      {% capture outcome %}{{page.outcome}}{% endcapture %}
+    {% elseif %}
+      {% capture outcome %}{{site.data.assignment.outcome}}{% endcapture %}
+    {% endif %}
     <div id="outcome"
       {% if page.outcome-font-color or page.outcome-bg-color %}
          style="
@@ -11,7 +16,7 @@
     >
       <p><strong>
 
-        Outcome: {{ page.outcome }}
+        Outcome: {{ outcome }}
 
       </strong></p>
     </div>
