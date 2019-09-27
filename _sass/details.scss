@@ -5,6 +5,13 @@ details summary span input.done {
   color: red;
 }
 
+details#submission-boilerplate {
+  summary {
+    font-weight: bold;
+    font-color: green;
+  }
+}
+
 /* From: http://movb.de/jekyll-details-support.html */
 
 /*
