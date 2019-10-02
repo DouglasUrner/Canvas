@@ -56,3 +56,10 @@ ul li {
   line-height: 24px;
   text-align: left;
 }
+
+// Lists in assignment tabs
+dl, ol, ul {
+  &.assignment {
+    margin: 0px 0px 6px 0px;
+  }
+}
